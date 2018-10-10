@@ -1,0 +1,236 @@
+header{
+    /* margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+    position: fixed; */
+    display: flex;
+    flex-flow: column wrap;
+    }
+.header-top-div{
+    max-width:100%;
+    height:40px;
+    background-color:#F4F8F9;
+    box-sizing: border-box;
+}
+.header-bottom-div{
+    max-width:100%;
+    height:80px;
+    background-color: #F4F8F9;
+}
+.horizontal-list{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+   }
+.list-item{   
+    float:right;
+    margin:10px 20px;
+}
+li a{
+    display:inline;
+    background-color: transparent;
+    margin: 2px 2px;
+    padding: 5px 12px;
+    color:black;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 60;
+} 
+a:hover{
+    background-color: rgb(114, 110, 163);
+    font-weight:20px;
+    
+}
+.blist-item{   
+    float:left;
+    margin:10px 20px;
+}
+.diplay-logo{
+    float: left;
+}
+.bg-image{
+    background-image: url("rail3.jpg");    
+    max-width:100%;
+    height:600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;     
+}
+.enquiry-form{
+     width:300px; 
+    /* width: 30%; */
+     height:500px; 
+    /* height:50%; */
+    border:1px solid  rgb(68, 67, 139);
+    border-radius: 10px;
+    position: obsolute;
+    margin-top:40px;
+    margin-left:80px;
+    margin-right:80px;
+    float: right;
+    background-color: white;
+    box-shadow: 0px 4px 8px 0px;
+
+}
+input[type=text],input[type=date]{   
+    width: 96%;
+    background-color: white;
+    padding:15px; 
+    border: 1px solid;
+    border-radius: 5px ;
+     margin: 5px 5px 5px 5px; 
+}
+.s-btn{
+    background-color:rgb(103, 51, 187);
+    color:white;
+    width:98%;
+    height:50px;
+    margin:5px 0px 5px 2px;
+    font-weight:50px;
+} 
+.s-btn:hover{
+    opacity: 5px;
+
+}  
+h3,h1{
+    text-align: center;
+    color:rgb(60, 70, 211);
+}
+.text-center{
+    position:obsolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+.grid{
+    margin: 0px 50px 20px 150px;   
+    width:100%;
+    column-gap: 5px;
+
+}
+.grid-container{
+    /*display:grid;*/
+    /*-ms-grid-columns: auto auto auto auto;*/
+    /*-webkit-grid-template-columns:auto auto auto auto;*/
+    /*-ms-grid-rows: auto auto auto auto;
+    -ms-grid-gap: 10px;    */
+    background-color:white;
+    padding: 10px;
+    margin:auto;
+}
+.card1{
+    width:350px;
+    height:500px;
+    /* box-shadow: 0px 3px 2px 3px gray; */
+    /* border:1px solid;rgb(228, 196, 110); */
+    background-color:#c9c9c9;  
+    
+}
+p{
+    font-family:sans-serif,Arial, Helvetica, sans-serif;
+    margin:1px;
+
+}
+footer{
+    max-width:100%;
+    height:200px;
+    background-color:#5f5e5e;
+    margin-top: 5px;
+
+}
+.footer-left-div{
+   float:left;
+
+}
+.footerdiv{
+    float: left
+}  
+* {
+    box-sizing: border-box;
+}
+.flist-item{
+    display: block;
+    color:white;
+    padding: 8px 16px;
+    text-decoration: none;
+
+}
+footer a{
+    color:white;
+}
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap' */
+     flex-flow: wrap; 
+
+}
+.search-form{
+    width:100%; 
+   /* width: 30%; */
+    height:30%; 
+   /* height:50%; */
+   /* border:1px solid  rgb(68, 67, 139);
+   border-radius: 10px; */
+   /* position: obsolute;
+   margin-top:40px;
+   margin-left:80px;
+   margin-right:80px;
+    box-shadow: 0px 4px 8px 0px;    */
+   background-color: white;  
+   /* margin: 5px;
+  
+   font-size: 15px; */
+   padding: 10px;
+   border-collapse: collapse;
+   box-sizing: border-box;
+   
+
+}
+.flexinner-div{
+    width:12%; 
+    height:10%; 
+    margin:10px;
+
+}
+.search-form > input[text]{
+   
+    background-color: white;
+    width:100%;
+    font-weight: 10px;
+    /*
+     padding:5px; 
+    border:ridge;
+    border-radius: 2px;
+    margin: 2px;  */
+}
+.search-form > label{
+    /* font-size:15px;  */
+    font-weight: 1.5rem;   
+}
+.main{
+    width:100%;
+    height:70%;
+    margin:5px 0px 5px 0px;
+    border:ridge;
+    border-radius: 10px
+
+}
+aside{
+    width:20%;
+    height:500px;
+    float:left;
+    border:ridge;
+    border-radius: 10px;   
+    margin-right:5px;   
+}
+#search-display{
+    width:auto;
+    height:500px;    
+    border:ridge;
+    border-radius: 10px;  
+}
+
+/**/

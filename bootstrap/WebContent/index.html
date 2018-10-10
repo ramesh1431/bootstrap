@@ -1,0 +1,141 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+	<title>Irctc welcomes you</title>
+	<link rel="stylesheet" type="text/css" href="style1.css" />
+	<script src="main.js" type="text/javascript"></script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<body>
+		<div class="header">
+			<div class="diplay-logo">
+				<img src="logo.jpg" width=100px height=120px />
+			</div>
+			<div class="header-top-div">
+				<ul class="horizontal-list">
+
+					<li class="list-item">
+						<button type="button" data-toggle="modal" data-target="#login">
+							LOGIN
+						</button>
+					</li>
+					<li class="list-item"><a href="registration.html">Register</a></li>
+					<li class="list-item"><a href="">contact us</a></li>
+					<li class="list-item"><a id="date">Date</a> <a id="time">TIME</a></li>
+				</ul>
+			</div>
+			<div class="header-bottom-div">
+				<ul class="horizontal-list">
+					<li class="blist-item"><a href="">TRAINS</a></li>
+					<li class="blist-item"><a href="">HOLIDAYS</a></li>
+					<li class="blist-item"><a href="">MEALS</a></li>
+					<li class="blist-item"><a href="">PROMOTOINS</a></li>
+					<li class="blist-item"><a href="">SERVICE AT STATIONS</a></li>
+					<li class="blist-item"><a href="">IRCTC E-WALLET</a></li>
+					<li class="blist-item"><a href="">ALERTS</a></li>
+					<li class="blist-item"><a href="">MORE</a></li>
+				</ul>
+			</div>
+		</div>
+		<main>
+			<div class="bg-image">
+				<form class="enquiry-form">
+					<h3>Book Ticket</h3>
+					<input type="text" name="fromstation" placeholder="from" required />
+					<input type="text" name="tostation" placeholder="to" required />
+					<input type="date" name="tostation" placeholder="Journey Date(dd-mm-yyyy)" required />
+					<input type="text" name="classes" />
+					<input type="checkbox" name="phc" /><label>PHC</label>
+					<input class="s-btn" type="submit" value="Find trains" />
+					<input class="s-btn" type="submit" value="pnr status" />
+				</form>
+			</div>
+		</main>
+		<h1>HOLIDAYS</h1>
+		<div class="grid">
+			<div class="grid-container">
+				<div class="card1">
+					<img src="maharajas-express.jpg" width="100%" height="200px" />
+					<div class="content">
+						<p>Redefine luxury with Maharajas’ Express.Trace the footsteps of Buddha with Buddhist Circuit special train.Relive the ancient glory of steam engine by the heritage train- Steam Express. Travel through magnificent India with “Villages on Wheels” Bharat Darshan Train. See India through exclusive train journeys of IRCTC!</p>
+					</div>
+				</div>
+				<div class="card1">
+					<img src="card2.jpg" width="100%" height="200px" />
+					<div class="content">
+						<h3>Maharaja's Express</h3>
+						<p>
+							Redefine luxury with Maharajas’ Express.Trace the footsteps of Buddha with Buddhist Circuit special train.Relive the ancient glory of steam engine by the heritage train- Steam Express. Travel through magnificent India with “Villages on Wheels” Bharat Darshan Train. See India through exclusive train journeys of IRCTC!
+						</p>
+					</div>
+				</div>
+				<div class="card1">
+					<img src="buddhist-special-train.jpg" width="100%" height="200px" />
+					<div class="content">
+						<p>
+							Redefine luxury with Maharajas’ Express.Trace the footsteps of Buddha with Buddhist Circuit special train.Relive the ancient glory of steam engine by the heritage train- Steam Express. Travel through magnificent India with “Villages on Wheels” Bharat Darshan Train. See India through exclusive train journeys of IRCTC!
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<footer>
+			<div class="footer-left-div">
+				<ul class="horizontal-list">
+					<li class="flist-item"><a href="">general information</a></li>
+					<li class="flist-item"><a href="">important information</a></li>
+					<li class="flist-item"><a href="">Agents</a></li>
+					<li class="flist-item"><a href="">Enquiries</a></li>
+					<li class="flist-item"><a href="">Integration policy</a></li>
+				</ul>
+			</div>
+			<div class="footer-div">
+				<ul class="horizontal-list">
+					<li class="flist-item"><a href="">Refund rules</a></li>
+					<li class="flist-item"><a href="">Advitise wuth us</a></li>
+					<li class="flist-item"><a href="">Irctc zone</a></li>
+					<li class="flist-item"><a href="">Enquiries</a></li>
+					<li class="flist-item"><a href="">IRTC loyality program</a></li>
+				</ul>
+			</div>
+			<!-- <div class="footer-right-div">
+			<ul class="horizontal-list">
+			  <li class="flist-item"><a href="">general information</a></li>
+			  <li class="flist-item"><a href="">important information</a></li>
+			  <li class="flist-item"><a href="">Agents</a></li>
+			  <li class="flist-item"><a href="">Enquiries</a></li>
+			  <li class="flist-item"><a href="">Integration policy</a></li>
+			</ul>
+	</div> -->
+			<!-- The Modal -->
+			<div class="modal fade" id="login">
+				<div class="modal-dialog">
+					<div class="modal-content">
+
+						<!-- Modal Header -->
+						<div class="modal-header">
+							<h4 class="modal-title">LOGIN</h4>
+							<button type="button" class="close" data-dismiss="modal">&times;</button>
+						</div>
+
+						<!-- Modal body -->
+						<div class="modal-body">
+							<form action="/HclAccount.jsp">
+								<div class="form-group">
+									<label for="usr">Name:</label> <input type="text"
+														class="form-control" id="usr" name="username">
+								</div>
+								<div class="form-group">
+									<label for="pwd">Password:</label> <input type="password"
+															class="form-control" id="pwd" name="password"> <input type="checkbox" onclick="myFunction()">Show Password
+								</div>
+								<button type="submit" class="btn btn-primary">Submit</button>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</body>
+</head>
+</html>
